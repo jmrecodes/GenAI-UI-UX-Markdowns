@@ -1,0 +1,3 @@
+# 5. UI Elements & Interactions
+
+This section details the appearance and behavior of key interactive elements across different states: Normal, Hover, Focus, Active, and Disabled. [cite: 99] Defining these states precisely is crucial for ensuring a consistent, accessible, and intuitive user experience. [cite: 100] Comprehensive documentation of these states and their use cases is a key aspect of a design system. [cite: 101]

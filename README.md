@@ -29,11 +29,11 @@ To maximize the effectiveness of this brief, reference specific Markdown files o
 ```
 "Generate a responsive navigation bar component.
 Adhere to the design principles outlined in:
-- /03_typography_system.md
-- /04_layout_whitespace/04_01_responsive.md
-- /05_ui_elements/05_03_navigation.md
-- /05_ui_elements/05_04_js_behavior.md (for mobile toggle)
-- /06_accessibility_hierarchy.md
+- GenAI-UI-UX-Markdowns/03_typography_system.md
+- GenAI-UI-UX-Markdowns/04_layout_whitespace/04_01_responsive.md
+- GenAI-UI-UX-Markdowns/05_ui_elements/05_03_navigation.md
+- GenAI-UI-UX-Markdowns/05_ui_elements/05_04_js_behavior.md (for mobile toggle)
+- GenAI-UI-UX-Markdowns/06_accessibility_hierarchy.md
 
 Ensure:
 - It's a sticky header.

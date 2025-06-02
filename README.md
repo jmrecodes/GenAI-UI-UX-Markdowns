@@ -1,6 +1,11 @@
+---
+description: cursor rule for usage of the web design brief for UI / UX related tasks
+globs: 
+alwaysApply: true
+---
 # Web Design System Brief for AI Code Generation
 
-This repository contains a comprehensive and actionable Web Design System Brief, specifically tailored to serve as a direct input and central reference for AI code generators like Gemini. Its purpose is to ensure that generated code adheres to consistent, user-centric, and accessible design principles.
+This repository contains a comprehensive and actionable Web Design System Brief, specifically tailored to serve as a direct input and central reference for AI code generators like Cursor. Its purpose is to ensure that generated code adheres to consistent, user-centric, and accessible design principles.
 
 By organizing the brief into modular Markdown files, we aim to provide AI models with clear, precise, and targeted information, optimizing the accuracy and quality of code generation.
 
@@ -21,19 +26,13 @@ To maximize the effectiveness of this brief, reference specific Markdown files o
 
 1.  **Identify the Component/Section:** Determine which part of the website or app you want to generate code for (e.g., a button, a navigation bar, a hero section).
 2.  **Select Relevant Files:** Refer the AI to the specific Markdown files that contain the design guidelines for that component or section.
-3.  **Provide Contextual Prompts:** In your prompt to the AI, explicitly list the paths to the relevant `.md` files (e.g., "Refer to `/05_ui_elements/05_01_buttons.md` for button styling.").
-4.  **Specify Requirements:** Clearly state your requirements for the specific code (e.g., "Generate a primary button with a 'click' action using vanilla HTML/CSS").
+3.  **Specify Requirements:** Clearly state your requirements for the specific code (e.g., "Generate a primary button with a 'click' action using vanilla HTML/CSS").
 
 **Example AI Prompt Snippet:**
 
 ```
 "Generate a responsive navigation bar component.
-Adhere to the design principles outlined in:
-- GenAI-UI-UX-Markdowns/03_typography_system.md
-- GenAI-UI-UX-Markdowns/04_layout_whitespace/04_01_responsive.md
-- GenAI-UI-UX-Markdowns/05_ui_elements/05_03_navigation.md
-- GenAI-UI-UX-Markdowns/05_ui_elements/05_04_js_behavior.md (for mobile toggle)
-- GenAI-UI-UX-Markdowns/06_accessibility_hierarchy.md
+Adhere to the design principles outlined in the given UI UX brief.
 
 Ensure:
 - It's a sticky header.
@@ -68,4 +67,17 @@ This brief is organized into the following logical sections, each within its ded
     * **`07_03_bootstrap.md`**: Conceptual implementation examples for Bootstrap.
     * **`07_04_react.md`**: Conceptual implementation examples for React components.
 * **`08_subtle_visual_details.md`**: Defines consistent guidelines for aesthetic elements like icons, shadows, and border-radius, supporting the overall minimalist aesthetic. (Note: This section includes external suggestions not found in the original source material, but aligns with design principles for consistency and usability.)
-```
+
+## Factors to consider when to include folder context and its files as referenced below
+
+Make sure to base your decision on the factors below before deciding to include the detailed folder context after at **Folder location context**.
+
+**Factors**
+
+1. Will the prompted task benefit from the Web Design System Brief as overviewed above?
+2. Did I discover a better approach or a good addition based on all of my interactions with the existing project to the current Web Design System Brief?
+3. Based on the brief structure and table of contents provided, can I pinpoint at least one file being useful for me to access in order to give better results to the task at hand?
+
+**Folder location context**
+
+@folder /GenAI-UI-UX-Markdowns
